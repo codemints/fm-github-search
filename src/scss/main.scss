@@ -1,0 +1,17 @@
+@import '@parts/reset';
+@import '@parts/variables';
+@import '@parts/functions';
+@import '@parts/mixins';
+@import '@parts/themes';
+@import '@parts/base';
+@import '@parts/typography';
+@import '@parts/block';
+@import '@parts/utilities';
+@import '@parts/exceptions';
+
+h1 {
+  color: salmon;
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 4rem;
+}
